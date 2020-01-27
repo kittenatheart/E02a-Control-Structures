@@ -10,3 +10,7 @@ if (color == 'Red' or color == 'red'):
     print('Correct!')
 else:
     print('Sorry, try again.')
+
+
+#the capitalization error
+#It's still wrong

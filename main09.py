@@ -19,3 +19,8 @@ while (color != 'red'):
         print('Sorry, try again.')
 
 print('You guessed it in {} tries!'.format(count))
+
+
+#the variable "count" has 1 added to it
+#it counts how many times the loop runs
+#it tells the user how many times the loop ran

@@ -13,3 +13,7 @@ elif (color == 'pink'):
     print('Close!')
 else:
     print('Sorry, try again.')
+
+
+#There's an extra response for if you type an answer that is closer to the correct one
+#There's an additional statement with new parameters
