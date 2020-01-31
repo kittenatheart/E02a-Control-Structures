@@ -16,34 +16,80 @@ Edit README.md to answer the following questions:
 - Open main01.py. Before running it, what do you expect this program to do?
   - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
   - What do you think the program did with what you typed in answer to the question?
+
+#This code will just say "Greetings!" and then ask for the user to type a response to the question "What is my favorite color?"
+#It did that. And then ended.
+#It didn't store it as a variable, but I assume it does store the input somewhere
+
+
 - Open main02.py. Before running it, describe how this is different than main01.py.
   - What do you think the color = input() will do?
   - Run the program in the terminal and answer the question. Did the program do what you expected?
+
+#This time the input is stored as a variable named "color"
+#color = input() just stores the input as the answer to the question
+#yes
+
 - Open main03.py. Before running it, describe how this is different than main02.py.
   - What is happening on lines 9–12?
   - Why are lines 10 and 12 indented?
   - Run the program and answer the question. What happens if you don’t capitalize Red?
   - What does this tell you about "color"?
+
+#This time, there is an if/else statement that tells you if you correctly guessed the favorite color
+#Lines 9-12 determine whether you answered the question with the correct answer or not and tells you
+#They only happen if the conditions in the statement are met (or not, for the else)
+#then you are wrong
+#whatever you input for "color" must be exactly the same as "Red" for it to work
+
 - Open main04.py. Before running it, describe how this is different than main03.py.
   - What problem is this trying to solve?
   - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+
+#the capitalization error
+#It's still wrong
+
 - Open main05.py. What do you expect line 9 to do?
   - What problem is it trying to solve?
   - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
+
+#line 9 should change "color" to all lowercase letters and then compares it to "red" so that capitalization in the input shouldn't matter
+#the capitalization error
+#it will not work
+
  - Open main06.py. How is line 9 different than in main05.py?
    - What would you guess .strip() is doing?
    - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+
+#line 9 has an additional function added to it
+#as you said in class, .strip() strips the spaces from the beginning/end of the input
+#if you put spaces between the letters (i.e. "r e d"), it will not work
+
  - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
    - What is happening on line 12?
    - Run the program and answer the question.
+
+#There's an extra response for if you type an answer that is closer to the correct one
+#There's an additional statement with new parameters
+
  - Open main08.py. What is the purpose of line 9?
    - Why are lines 10–17 indented?
    - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
+
+#it creates a loop that will continue until a condition is met
+#they are within the loop
+#it would happen outside of the loop and the user would only be able to input once
+
  - Open main09.py. What is happening on line 13?
    - What is the purpose of “count”?
    - What is happening on line 22?
    - Run the program.
+
+#the variable "count" has 1 added to it
+#it counts how many times the loop runs
+#it tells the user how many times the loop ran
+
  - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
  - *Extra credit:* open main11.py. What is happening on lines 6-11?
   
